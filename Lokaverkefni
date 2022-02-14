@@ -70,10 +70,16 @@ Diskpart command interpreter helps you manage your computer's drives.
 A command-line interface (CLI) is a text-based user interface (UI) used to run programs, manage computer files and interact with the computer. ... The MS-DOS operating system and the command shell in the Windows operating system are examples of command-line interfaces.
 
 11.4.5.3 Lab
-
 FC:
 You can use this command to identify differences in text between two files. It's particularly useful for writers and programmers trying to find small changes between two versions of a file.
 Ipconfig:
 This command relays the IP address that your computer is currently using. However, if you're behind a router (like most computers today), you'll instead receive the local network address of the router.
 Ping:
 Sometimes, you need to know whether packets are making it to a specific networked device. That's where ping comes in handy.
+
+
+11.5.2.4 Lab
+In computing, a shared resource, or network share, is a computer resource made available from one host to other hosts on a computer network.
+
+11.5.6.2 Lab
+Windows Remote Assistance lets someone you trust take over your PC and fix a problem from wherever they are.

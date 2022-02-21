@@ -1,0 +1,7 @@
+$userName = Read-Host 'Enter your user name'
+$fullName = Read-Host 'Enter your full name'
+$password = Read-Host 'Enter your password' -AsSecureString
+$description = Read-Host 'Write a description of this user [Optional]'
+
+New-LocalUser -Name $userName -FullName $fullName -Password $password -Description $description
+

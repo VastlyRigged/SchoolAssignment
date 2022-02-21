@@ -1,0 +1,16 @@
+$groupName = Read-Host 'Enter name of the group'
+
+
+if (!$groupName)
+{
+    $localGroupName = Read-Host 'Enter the name of existing group'
+    $groupMember = Read-Host 'Enter the name of existing user'
+    Add-LocalGroupMember -Group $localGroupName -Member $groupMember
+}
+else
+{
+    New-LocalGroup -Name $groupName 
+    $groupMember = Read-Host 'Enter the name of existing user'
+    Add-LocalGroupMember -Group $groupName -Member $groupMember
+}
+

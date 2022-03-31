@@ -1,0 +1,96 @@
+body{
+    background-color: burlywood;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 15px;
+    height: 450px;
+    width: 70%;
+    margin: auto;
+}
+.container1{
+    display: grid;
+    font-family: 'Playfair Display', serif;
+    height: 450px;
+}
+.container1 h1{
+    font-size: 35px;;
+}
+.container1 img{
+    width: 550px;
+    height: auto;
+    background-color: aqua;
+}
+.container2{
+    font-weight: bold;
+    text-align: left;
+    height: 450px;
+}
+.contact{
+    display: grid;
+    border-style: double;
+    border-radius: 2%;
+    border-width: 3px;
+    border-color: aqua;
+    width: 657px;
+}
+.contact h2{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.contact p{
+    font-family: 'Playfair Display', serif;
+    color: gray;
+}
+.button{
+    color: gray;
+}
+#text{
+    display: grid;
+    padding: 3px;
+    width: 600px;
+    margin: auto;   
+    color: gray;
+}
+#textbox{
+    display: grid;
+    height: 80px;
+    font-size: 13px;
+    padding: 3px;
+    width: 600px;
+    margin: auto;   
+}
+#submit{
+    display: grid;
+    border-style: double;
+    border-radius: 2%;
+    border-width: 3px;
+    border-color: aqua;
+    background-color: whitesmoke;
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+#submit:hover
+{
+    background-color: aqua;
+    border-color: whitesmoke;
+}
+#submit:active
+{
+    width: 100px;
+    height: 29px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.gradient{
+    background: linear-gradient(to bottom left, rgb(0, 0, 0) 0%, aqua 10%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+}

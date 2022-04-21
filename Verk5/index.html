@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="is">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="Verk3Java.js"></script>
+  <script src="Loading.js"></script>
+  <title>Main page</title>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+  <div id="loading"></div>
+  <div id="self" class="animateBottom" style="display: none;">
+    <div class="headmenu">
+      <label>
+        <h1>GROOVY THING GOING</h1>
+      </label>
+      <div>
+        <a href="#where" target="_menu"><img src="home.svg"> WHERE</a>
+      </div>
+      <div>
+        <a href="#why" target="_menu"><img src="question.svg"> WHY</a>
+      </div>
+      <div>
+        <a href="#program" target="_menu"><img src="star.svg"> PROGRAM</a>
+      </div>
+      <div>
+        <a href="#buy_tickets" target="_menu"><img src="cart.svg"> BUY TICKETS</a>
+      </div>
+      <div>
+        <a href="#contact_us" target="_menu"><img src="bubbles.svg"> CONTACT US</a>
+      </div>
+    </div>
+    <div class="menu">
+      <button onclick="menuFunction()" class="dropbtn"><img src="menu-icon.svg"
+          style="width: 20px; height: auto; pointer-events: none;"></button>
+      <div id="menuDropdown" class="dropdown-content">
+        <a href="#where" target="_menu"><img src="home.svg"> WHERE</a>
+        <a href="#why" target="_menu"><img src="question.svg"> WHY</a>
+        <a href="#program" target="_menu"><img src="star.svg"> PROGRAM</a>
+        <a href="#buy_tickets" target="_menu"><img src="cart.svg"> BUY TICKETS</a>
+        <a href="#contact_us" target="_menu"><img src="bubbles.svg"> CONTACT US</a>
+      </div>
+    </div>
+    <header>
+      <article class="head">
+        <h2 class="rainbow rainbow_text_animated" style="display: flex; justify-self: center; align-self: center;">Stop coding non-structured web
+          sites. Let's do it right!</h2>
+        <img class="rotate" src="mobile.png">
+      </article>
+      <footer class="gridContainer"
+        style="grid-template-rows: 50% 50%; grid-template-columns: auto auto auto; column-gap: 10px; padding-top: 10px;">
+        <div class="sphere rainbow rainbow_text_animated">
+          <h3>67%</h3>
+        </div>
+        <div class="sphere rainbow rainbow_text_animated">
+          <h3>90%</h3>
+        </div>
+        <div class="sphere rainbow rainbow_text_animated">
+          <h3>66%</h3>
+        </div>
+        <div style="text-align: center;">
+          <h3>Purchase Increased</h3>
+          <p>Percentage of users more likely to purchase<br> on mobile friendly site.</p>
+        </div>
+        <div style="text-align: center;">
+          <h3>Multi-device Users</h3>
+          <p>Most of the world accesses the internet<br> on multiple devices.</p>
+        </div>
+        <div style="text-align: center;">
+          <h3>Sad Users</h3>
+          <p>Percentage of users that are frustrated<br> with page load times.</p>
+        </div>
+      </footer>
+    </header>
+  
+    <main>
+      <div class="gridContainer">
+        <article>
+          <h1 style="align-self: center; font-size: 38px;">Fyrirsögn</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo
+            eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.
+          </p>
+          <h3>Millifyrirsögn</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo
+            eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.
+          </p>
+        </article>
+        <article>
+          <h2>Undirfyrirsögn</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo
+            eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.
+          </p>
+          <h4>Áherslutexti</h4>
+          <p style="column-width: 150px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi.
+            Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis
+            obcaecati eos amet dolorem iste odit.
+            Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore
+            rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas
+            voluptatibus blanditiis.
+            Neðamálstexti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet minima porro numquam
+            eligendi totam nulla voluptate odit facere aut quo iste veniam, impedit non quisquam cupiditate, earum
+            architecto quas!</p>
+        </article>
+      </div>
+      <div class="gridContainer" style="grid-template-rows: 30% 70%;">
+        <img src="placeholder2.png">
+        <article>
+          <h3>Millifyrirsögn</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo
+            eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.
+          </p>
+          <h4>Áherslutexti</h4>
+          <p style="column-width: 175px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi.
+            Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis
+            obcaecati eos amet dolorem iste odit.
+            Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore
+            rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas
+            voluptatibus blanditiis.
+            Neðamálstexti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet minima porro numquam
+            eligendi totam nulla voluptate odit facere aut quo iste veniam, impedit non quisquam cupiditate, earum
+            architecto quas!</p>
+        </article>
+      </div>
+  
+    </main>
+    <div class="registerBox">
+      <div class="registerBox2">
+        <h3>WHO</h3>
+        <h3>WHERE</h3>
+        <h3>WHEN</h3>
+        <h3>CHECK IN</h3>
+      </div>
+      <div class="registerBox2">
+        <h6>Jóhann</h6>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
+        <h6>10:30 - 12:00</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+      <div class="registerBox2">
+        <h6>Teddi</h6>
+        <h6>Adipisicing elit, lorem ipsum dolor sit amet consectetur.</h6>
+        <h6>08:30 - 11:00</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+      <div class="registerBox2">
+        <h6>Margrét</h6>
+        <h6>sit amet consectetur.</h6>
+        <h6>13:30 - 16:30</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+      <div class="registerBox2">
+        <h6>Jóna</h6>
+        <h6>Always bring cinnamon buns on a deep-sea diving expedition.</h6>
+        <h6>7:55 - 14:45</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+      <div class="registerBox2">
+        <h6>Victor</h6>
+        <h6>The green tea and avocado smoothie turned out exactly as would be expected.</h6>
+        <h6>20:05 - 05:30</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+      <div class="registerBox2">
+        <h6>Ragnar</h6>
+        <h6>That was how he came to win $1 million.</h6>
+        <h6>08:30 - 12:00</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+      <div class="registerBox2">
+        <h6>Dóri</h6>
+        <h6>All they could see was the blue water surrounding their sailboat.</h6>
+        <h6>00:00 - 24:00</h6>
+        <h6 class="register"><a href="Verk2Base.html" target="_menu">Register</a></h6>
+      </div>
+    </div>
+    <footer>
+      <div class="gridContainer">
+        <div>
+          <ul>
+            <li>
+              <p>Eveniet Ducimus pariatur voluptate</p>
+            </li>
+            <li>
+              <p>Vitae animi, sed provident fuga</p>
+            </li>
+            <li>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </li>
+            <li>
+              <p>Provident sit aliquid a consequuntur</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <p><a target="_" href="http://www.blankwebsite.com/"><img src="facebook.svg"> Our Facebook account</a></p>
+            </li>
+            <li>
+              <p><a target="_" href="https://www.ihasabucket.com/"><img src="reddit.svg"> Our subreddit</a></p>
+            </li>
+            <li>
+              <p><a target="_" href="https://blank.org/"><img src="twitter.svg"> Our Twitter</a></p>
+            </li>
+            <li>
+              <p><a target="_" href="https://github.com/VastlyRigged/SchoolAssignment"><img src="github.svg"> Our
+                  github</a></p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <p>Nafn: Þorvaldur Daði Sigurðsson</p>
+            </li>
+            <li>
+              <p>Tölvupóstur: thorvaldur01@gmail.com</p>
+            </li>
+            <li>
+              <p>Vefhönnun: VEFÞ2VH05BU-Hát, tölvubraut Tækniskólans &nbsp;</p>
+            </li>
+            <p>&copy; 2022 ÞDS</p>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+</body>
+
+</html>
